@@ -1,0 +1,41 @@
+@import url(./reset.css);
+@font-face {
+  font-family: iranMedium;
+  src: url(../public/font/IRANSansWeb_Medium.woff);
+}
+@font-face {
+  font-family: iranBold;
+  src: url(../public/font/IRANSansWeb_Bold.ttf);
+}
+@font-face {
+  font-family: iranBlack;
+  src: url(../public/font/IRANSansWeb_Black.ttf);
+}
+
+:root{
+  --font-medium:  iranMedium;
+  --font-bold: iranBold;
+  --font-black: iranBlack;
+
+  --color-black-1 : #121214;
+  --color-black-2 : #151517;
+  --color-black-3 : #1F1F22;
+  --color-white:#ffffff;
+  --color-gray: #515152;
+  --color-pink: #E9204F;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-medium);
+}
+
+.container{
+  max-width: 80rem ;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
