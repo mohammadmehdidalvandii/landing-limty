@@ -34,3 +34,24 @@
     font-weight: 500;
     color: var(--color-gray);
 }
+.services_card{
+    display: block;
+    width: 100%;
+text-align: center;
+margin-bottom: 1rem;
+}
+.services_card_icon{
+    font-size: 4rem;
+}
+.services_card_number{
+display: block;
+font-size: 2rem;
+font-weight: bolder;
+color: var(--color-pink);
+}
+.services_card_text{
+display: block;
+font-size: 1rem;
+font-weight: 500;
+color: var(--color-gray);
+}
