@@ -1,0 +1,35 @@
+.about{
+    display: block;
+    width: 100%;
+    height: 100dvh;
+    background-color: var(--color-black-1);
+    color: var(--color-white);
+    padding: 4rem 0;
+}
+.about_img{
+    width: 100%;
+}
+.about_content{
+    display: block;
+    width: 100%;
+}
+.about_content_title{
+    font-family: var(--font-black);
+    font-size: 2rem;
+    line-height:1.5;
+}
+.about_content_desc{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-gray);
+}
+.about_items{
+    display: block;
+    margin-top: 2rem;
+}
+.about_item{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-gray);
+}
