@@ -40,3 +40,11 @@ body{
   padding-right: 1rem;
   padding-left: 1rem;
 }
+
+.title{
+  display: block;
+  text-align: center;
+  font-family: var(--font-black);
+  font-size: 2.5rem;
+  color: var(--color-pink);
+}
