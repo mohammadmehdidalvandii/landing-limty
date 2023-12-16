@@ -3,6 +3,7 @@ import About from "@/components/template/About/About";
 import AboutBox from "@/components/template/AboutBox/AboutBox";
 import Header from "@/components/template/Header/Header";
 import Services from "@/components/template/Services/Services";
+import SampleWork from "@/components/template/sampleWork/sampleWork";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About/>
       <AboutBox/>
       <Services/>
+      <SampleWork/>
     </>
   )
 }

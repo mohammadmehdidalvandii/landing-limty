@@ -1,0 +1,40 @@
+.sampleWork{
+    display: block;
+    width: 100%;
+    padding: 4rem 0;
+    background-color: var(--color-black-1);
+}
+
+.sampleWork_item{
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 1rem;
+    transition: all 0.4s linear;
+}   
+.sampleWork_item:hover .sampleWork_item_content{
+    opacity: 1;
+}
+.sampleWork_item_img{
+    width: 100%;
+    /* display: none; */
+    z-index: -222;
+}
+.sampleWork_item_content{
+    width: 100%;
+    display: block;
+    position: absolute;
+    color: var(--color-white);
+    bottom: 0;
+    padding: 1rem; 
+    background-color: rgb(0 ,0 ,0 ,0.5);
+    opacity: 0;
+}
+.sampleWork_item_title{
+    font-family: var(--font-black);
+    font-size: 1.1rem;
+}
+.sampleWork_item_job{
+    font-size: 1rem;
+    font-weight: 500;
+}
