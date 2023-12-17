@@ -9,6 +9,7 @@
     display: block;
     width: 100%;
     position: relative;
+    z-index: 1;
     margin-bottom: 1rem;
     transition: all 0.4s linear;
 }   
@@ -18,7 +19,7 @@
 .sampleWork_item_img{
     width: 100%;
     /* display: none; */
-    z-index: -222;
+    /* z-index: -222; */
 }
 .sampleWork_item_content{
     width: 100%;
