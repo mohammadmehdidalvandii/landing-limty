@@ -5,6 +5,7 @@ import Header from "@/components/template/Header/Header";
 import Services from "@/components/template/Services/Services";
 import SampleWork from "@/components/template/sampleWork/sampleWork";
 import Teams from "@/components/template/Teams/Teams";
+import Prices from "@/components/template/Prices/Prices";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Services/>
       <SampleWork/>
       <Teams/>
+      <Prices/>
     </>
   )
 }
