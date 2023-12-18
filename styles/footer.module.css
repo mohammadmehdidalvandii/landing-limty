@@ -8,7 +8,7 @@
 .footer_content{
     display: block;
     margin: 0 auto;
-    width: 800px;
+    max-width: 800px;
     text-align: center;
 }
 .footer_desc{
