@@ -8,6 +8,7 @@ import Teams from "@/components/template/Teams/Teams";
 import Prices from "@/components/template/Prices/Prices";
 import News from "@/components/template/News/News";
 import Contact from "@/components/template/Contact/Contact";
+import Footer from "@/components/template/Footer/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Prices/>
       <News/>
       <Contact/>
+      <Footer/>
     </>
   )
 }
